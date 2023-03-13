@@ -55,10 +55,14 @@ h2 {
   font-weight: normal;
 }
 article {
-  border: 1px solid var(--text);
-  border-radius: 2rem;
+  border-top: 3px solid var(--text);
   margin: 3rem;
   padding: 1rem;
+}
+
+article > header {
+  border-bottom: 1px dotted var(--text);
+  margin-bottom: 2rem;
 }
 
 button:hover,
